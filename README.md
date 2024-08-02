@@ -1,7 +1,6 @@
 # Pantry Pro
 
-### Tech Stack:
-Sure, here's the classification without definitions:
+## Tech Stack:
 
 ### Frontend:
 - Next.js
