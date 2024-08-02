@@ -31,12 +31,26 @@ Sure, here's the classification without definitions:
 
 ### Create a presentable frontend design to display all pantry items
 
+## Run the Project with Docker:
+
+1. First of all pull the image into your local machine:
+
+```docker
+docker pull surajkumar00/pantry-app
+```
+2. Run the `Dcoker Container` using `pulled Docker Image` :
+```docker
+docker run -it -p 3000:3000 surajkumar00/pantry-app
+```
+
+
+
 
 ### Deploy to Vercel and use CI/CD
 
 
 
-# These are extra Functionality to add into Project:
+## These are extra Functionality to add into Project:
 
 ### Bonus: Take images with mobile or browser camera and upload to Firebase
 
