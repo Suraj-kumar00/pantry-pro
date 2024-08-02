@@ -1,4 +1,4 @@
-# Pantry App 
+# Pantry Pro
 
 ### Tech Stack:
 Sure, here's the classification without definitions:
