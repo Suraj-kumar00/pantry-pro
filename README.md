@@ -1,4 +1,4 @@
-# Pantry Pro
+![pantry-pro](https://socialify.git.ci/Suraj-kumar00/pantry-pro/image?description=1&descriptionEditable=PantryPro%3A%20Keeping%20Your%20Kitchen%20Stocked%20and%20Sorted.%0A&font=Raleway&forks=1&issues=1&language=1&name=1&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Dark)
 
 ## Tech Stack:
 
