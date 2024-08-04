@@ -37,15 +37,18 @@ const Header = () => {
     <ThemeProvider theme={theme}>
       <AppBar position="fixed" sx={{ bgcolor: '#1b263b', width: '100%', top: 0, left: 0, zIndex: 1201 }}>
         <Toolbar>
-          <Typography
-            variant="h4"
-            color="white"
-            fontWeight="bold"
-            sx={{ flexGrow: 1, cursor: 'pointer' }}
-            onClick={handleTitleClick}
-          >
-            Pantry Pro
-          </Typography>
+          <Box sx={{ display: 'flex', alignItems: 'center', flexGrow: 1 }}>
+            <img src="/Pantry-Pro-logo.png" alt="Logo" style={{ width: '40px', height: '40px', marginRight: '8px' }} />
+            <Typography
+              variant="h4"
+              color="white"
+              fontWeight="bold"
+              sx={{ cursor: 'pointer' }}
+              onClick={handleTitleClick}
+            >
+              Pantry Pro
+            </Typography>
+          </Box>
 
           {!isMobile && (
             <>

@@ -50,7 +50,7 @@ const Footer = () => {
               variant="body2"
               sx={{ mb: { xs: 2, md: 0 }, fontWeight: 'bold' }}
             >
-              © Pantry App All Rights Reserved
+              © Pantry App All Rights Reserved August 2024
             </Typography>
 
             <Box sx={{ display: 'flex', gap: 2, mb: { xs: 2, md: 0 } }}>
@@ -61,13 +61,13 @@ const Footer = () => {
               >
                 Home
               </Button>
-              <Button
+              {/* <Button
                 onClick={() => window.location.href = '/contact'}
                 color="inherit"
                 sx={{ color: 'white' }}
               >
                 Contact
-              </Button>
+              </Button> */}
             </Box>
 
             <Box sx={{ display: 'flex', gap: 2 }}>
