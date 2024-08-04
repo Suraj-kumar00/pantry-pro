@@ -1,6 +1,11 @@
 ![pantry-pro](https://socialify.git.ci/Suraj-kumar00/pantry-pro/image?description=1&descriptionEditable=PantryPro%3A%20Keeping%20Your%20Kitchen%20Stocked%20and%20Sorted.%0A&font=Raleway&forks=1&issues=1&language=1&name=1&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Dark)
 
-## Tech Stack:
+
+
+## Demo Video of the Project:
+[![PantryPro Project Demo Video]()
+
+## Tech Stack Needed for this Project:
 
 ### Frontend:
 - Next.js
@@ -20,17 +25,9 @@
 - Docker
 
 
-### Set Up a Next.js project with Material UI component
-
-### Implement a Firebase Backend for data Storage
-
-### Create a form to add, delete, and update pantry items
-
-### Add a search or filter functionality to easily find items
-
-### Create a presentable frontend design to display all pantry items
-
 ## Run the Project with Docker:
+
+#### You must have to install Docker Desktop for this step:
 
 1. First of all pull the image into your local machine:
 
@@ -42,22 +39,75 @@ docker pull surajkumar00/pantry-app
 docker run -it -p 3000:3000 surajkumar00/pantry-app
 ```
 
+## Features of Pantry Pro:
+
+- [x] A form to add, delete, and update pantry items
+
+- [x] A search or filter functionality to easily find items
+
+- [x] A presentable frontend design to display all pantry items
+
+- [x] Deployed to Vercel and use CI/CD 
+
+- [x] Can add inventry items via uploading an images
+
+## Set Up Guide:
+
+```bash
+npx create-next-app@latest
+```
+
+```bash
+npm install @mui/material @emotion/react @emotion/styled
+```
+
+### Implement a Firebase Backend for data Storage
+##### First install `firebase`
+
+```bash
+npm install firebase
+```
+
+**Go to the firebase official website and create new project**
 
 
+##### Copy pase this code in `firebase.js` which should be in you project's root directory
+```bash
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-### Deploy to Vercel and use CI/CD
+// Your web apps Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 
+const firebaseConfig = {
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
+};
 
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
-## These are extra Functionality to add into Project:
+```
 
-### Bonus: Take images with mobile or browser camera and upload to Firebase
+#### And now you are ready to work with project
 
-### Bonus: Use GPT Vision API or other LLMs to classify images and then update to Firebase
+---
 
-### Bonus: Use GCP Vertex AI and AutoML to classify 4-5 images of items near you and update Firebase
+## License 📝
 
-### Bonus: Add a recipe suggestion feature based on pantry contents using the OpenAI API or OpenRouter API
+This repo is licensed under the terms of the MIT License. check out [LICENSE](https://github.com/Suraj-kumar00/pantry-pro/blob/main/LICENSE) for details.
 
+---
 
+## Support 🌱
 
+_We would love to have you, feel free to open issues and pull requests, and Don't forget to leave a star ⭐_
