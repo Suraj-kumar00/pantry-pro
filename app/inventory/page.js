@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from 'react';
 import { firestore, storage } from '@/firebase';
 import { Box, Button, Modal, Stack, TextField, Typography, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, ThemeProvider, createTheme } from '@mui/material';
 import { collection, getDocs, query, setDoc, doc, getDoc, deleteDoc, updateDoc } from 'firebase/firestore';
-import FileUpload from '../images/fileupload'; // Import the FileUpload component
+import FileUpload from '../images/fileupload'; 
 
 const darkTheme = createTheme({
   palette: {
