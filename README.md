@@ -36,7 +36,7 @@ docker pull surajkumar00/pantry-pro
 ```
 2. Run the `Dcoker Container` using `pulled Docker Image` :
 ```docker
-docker run -it -p 3000:3000 surajkumar00/pantry-app
+docker run -it -p 3000:3000 surajkumar00/pantry-pro
 ```
 
 ## Features of Pantry Pro:
