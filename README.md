@@ -3,7 +3,7 @@
 
 
 ## Demo Video of the Project:
-[![PantryPro Project Demo Video]()
+[![Watch the video](https://img.youtube.com/vi/9SuAyzMrPGI/0.jpg)](https://www.youtube.com/watch?v=9SuAyzMrPGI)
 
 ## Tech Stack Needed for this Project:
 
