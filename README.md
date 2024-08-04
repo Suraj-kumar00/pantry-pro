@@ -32,7 +32,7 @@
 1. First of all pull the image into your local machine:
 
 ```docker
-docker pull surajkumar00/pantry-app
+docker pull surajkumar00/pantry-pro
 ```
 2. Run the `Dcoker Container` using `pulled Docker Image` :
 ```docker
